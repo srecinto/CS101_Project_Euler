@@ -15,8 +15,7 @@ class Problem_0004:
     #print "1: {0}".format(self.isPalindrome(1))
     #print "1003: {0}".format(self.isPalindrome(1003))
     #print "103: {0}".format(self.isPalindrome(103))
-    print "982081: {0}".format(self.isPalindrome(982081))
-    
+    #print "982081: {0}".format(self.isPalindrome(982081))
     
     #Brute forcing it...  Can't figure out the equation to calc this
     leftNumber = 999
@@ -38,7 +37,7 @@ class Problem_0004:
         break
       leftNumber -= 1
       
-    print "Problem 4 Answer: {0}x{1}={2} product is a PAlindrome: {3}".format(leftNumber, rightNumber, answer, isPalindrome)
+    print "Problem 4 Answer: {0}x{1}={2} product is a Palindrome: {3}".format(leftNumber, rightNumber, answer, isPalindrome)
     
   #
   # Checks if number is a palendrome
